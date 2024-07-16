@@ -104,7 +104,7 @@ const Home = () => {
                 value="demo"
                 onChange={toggleDisableButton}
               />
-              <span> I want to add this task 12345</span><br />
+              <span> I want to add this task</span><br />
 
               <button onClick={handleAddNotes} className="bg-[#333] text-white text-base font-mono px-5 py-2 rounded-md mt-3" disabled={disableButton}>
                 Save
